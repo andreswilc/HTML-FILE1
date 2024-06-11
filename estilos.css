@@ -1,0 +1,114 @@
+.fondo {
+    background-image:linear-gradient(
+        to top left, 
+        midnightblue, 
+        mediumaquamarine,
+        indigo );
+
+}
+
+.mitexto{
+    font-size: 1.5em;
+    font-style: oblique;
+    color: gold;
+    padding: 1em 1em 1em 0.5em;
+
+}
+
+#titulo{
+ color: rgb(255, 255, 255);   
+}
+
+.titulo{
+    padding: 0em 3em 1em 0.5em;
+    font-size: 2em;
+    font-weight: bold;
+    color: rgb(6, 42, 56);
+}
+
+.subtitulo{
+    padding: 0em 3em 1em 0.8em;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: rgb(6, 42, 56);
+}
+
+#encabezado{
+    
+    font-size: 5em;
+    justify-content: center;
+    width: fit-content;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+
+#logo{
+    width: 99vw;
+    opacity: 0.8;
+}
+
+#menu{
+    
+    display: flex;
+    font-size: 2em;
+    align-items: center;
+    gap: 4em;
+    margin: 0.2em;
+    justify-content: space-between ;
+    transition: 1s;
+}
+
+#menu :hover{
+    background-color: aqua;
+    
+}
+
+#rutinas{
+    display: flex;
+    font-size: 2em;
+    border: 2px solid black;
+    align-items: center;
+    gap: 4em;
+    margin: 0.2em;
+    border-radius: 10%;
+}
+
+#recetas{
+    display: flex;
+    font-size: 2em;
+    border: 2px solid rgb(0, 0, 0);
+    align-items: center;
+    gap: 4em;
+    margin: 0.2em;
+    border-radius: 10%;
+}
+
+#deportes{
+    display: flex;
+    font-size: 2em;
+    border: 2px solid black;
+    align-items: center;
+    gap: 4em;
+    margin: 0.2em;
+    border-radius: 10%;
+}
+
+.titulolist{
+    font-size: 1.5em;
+    font-style: oblique;
+    color: gold;
+    padding: 1em 1em 1em 0.5em;
+}
+
+.lista{
+    font-size: 1.5em;
+    font-style: oblique;
+    color: rgb(14, 94, 41);
+    padding: 1em 1em 1em 1.2em;
+    font-weight: bold; 
+    list-style-image: url("https://manz.dev/assets/stickers/batmanz.png");
+}
